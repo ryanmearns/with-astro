@@ -1,4 +1,5 @@
 {
+  "name": "with-astro",
   "private": true,
   "scripts": {
     "build": "turbo build",
