@@ -1,4 +1,6 @@
-# `Turborepo` Vite starter
+⚠️ under development
+
+# `Turborepo` Astro starter
 
 This is my starter Turborepo for applications with CI/CD deployment pipeline using SST Ion.
 
