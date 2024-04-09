@@ -10,6 +10,6 @@ export default $config({
     };
   },
   async run() {
-    new sst.aws.Astro("MyConsole");
+    new sst.aws.Astro("MyAstroConsole");
   },
 });

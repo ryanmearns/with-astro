@@ -1,5 +1,6 @@
 ---
-
+import { ViewTransitions } from "astro:transitions";
+import "../styles/global.css";
 ---
 
 <html lang="en">
@@ -9,8 +10,9 @@
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <title>Astro</title>
+    <ViewTransitions />
   </head>
-  <body>
+  <body class="min-h-screen h-full">
     <slot />
   </body>
 </html>
